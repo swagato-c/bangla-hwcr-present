@@ -4,7 +4,7 @@ This is the code for the paper "Bengali Handwritten Character Classification usi
 
 The weight file is given which can easily be loaded using FastAI library and used for further training or inference. For training, the weight file model_files_final_weights_train.pth needs to be used. For further inference, the weight file model_files_final_weights_interp.pkl needs to be used. The .pkl weight file holds a little bit more information which helps during inference but can't be used for further training ( as of writing this document ).
 
-Using this weights, 96.13% accuracy was achieved on the BanglaLekha-Isolated Dataset ( https://data.mendeley.com/datasets/hf6sf8zrkc/2 ). The train and test set we used is given in the file data_25.csv.
+Using this weights, 96.13% accuracy was achieved on the BanglaLekha-Isolated Dataset ( https://data.mendeley.com/datasets/hf6sf8zrkc/2 ).
 
 
 ## Installation Steps:
